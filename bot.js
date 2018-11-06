@@ -29,3 +29,17 @@ client.user.setGame(`Five Stars`,"http://twitch.tv/S-F")
 });
 
 client.login(process.env.BOT_TOKEN);
+
+
+
+
+client.on ("guildMemberAdd", member => {
+
+   var role = member.guild.roles.find ("name", ":sparkles:ςгคfŦtєг'ร :sparkles:");
+   member.addRole (role);
+
+})
+
+client.on ("guildMemberRemove", member => {
+
+})
