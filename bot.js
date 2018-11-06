@@ -35,7 +35,7 @@ client.login(process.env.BOT_TOKEN);
 
 client.on ("guildMemberAdd", member => {
 
-   var role = member.guild.roles.find ("name", ":sparkles:ςгคfŦtєг'ร :sparkles:");
+   var role = member.guild.roles.find ("name", "ςгคfŦtєг'ร");
    member.addRole (role);
 
 })
